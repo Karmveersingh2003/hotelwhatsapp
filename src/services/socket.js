@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const SOCKET_URL = process.env.REACT_APP_API_URL || 'https://hotelwhatsapp.vercel.app/';
+const SOCKET_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
 let socket = null;
 
