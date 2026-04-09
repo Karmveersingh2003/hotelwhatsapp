@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: process.env.REACT_APP_API_URL || 'https://hotelwhatsapp.vercel.app/' });
+const API = axios.create({ baseURL: process.env.REACT_APP_API_URL || 'https://hotelwhatsapps.vercel.app/' });
 
 API.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
